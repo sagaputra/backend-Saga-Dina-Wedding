@@ -42,7 +42,7 @@
     ],
     "headers": [
         {
-            "source": "/api/comment?per=10&next=0",
+            "src": "/api/(.*)",
             "headers": [
                 { "key": "Access-Control-Allow-Origin", "value": "*" },
                 {
