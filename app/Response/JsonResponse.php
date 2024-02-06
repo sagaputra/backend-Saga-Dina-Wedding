@@ -1,6 +1,8 @@
 <?php
-
 namespace App\Response;
+
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Header: *');
 
 use Core\Http\Respond;
 
