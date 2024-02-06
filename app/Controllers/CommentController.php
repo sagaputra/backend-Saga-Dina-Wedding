@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Controllers;
-
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Header: *');
 use App\Middleware\UuidMiddleware;
 use App\Repositories\CommentContract;
 use App\Repositories\LikeContract;

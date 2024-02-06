@@ -1,6 +1,5 @@
 <?php
-header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Header: *');
+
 use App\Controllers\AuthController;
 use App\Controllers\CommentController;
 use App\Controllers\WelcomeController;
