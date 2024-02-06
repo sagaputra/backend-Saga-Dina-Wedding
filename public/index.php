@@ -1,5 +1,6 @@
 <?php
-
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Header: *');
 /**
  * Import semua class yang digunakan dalam framework ini.
  * Tenang, ini telah dilakukan secara otomatis oleh composer.
