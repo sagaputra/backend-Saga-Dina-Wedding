@@ -1,8 +1,9 @@
 <?php
-
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Header: *');
 /**
  * Redirect request to public
- * 
+ *
  * Vercel + PHP
  */
 
